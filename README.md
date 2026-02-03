@@ -110,6 +110,7 @@ UNIQUE
 DEFAULT
 PRIMARY KEY / FOREIGN KEY
 Note: Actual enforcement may vary slightly by database engine.
+---
 
 Database-Level vs Application-Level Validation
 Validation Type	Where	Example
@@ -118,15 +119,19 @@ Application-level	Backend code	Regex, form validation
 Best Practice
 ✔ Use both for maximum data safety
 
+---
 Constraint Design Decisions
 Critical business rules enforced at database level
 Prevents invalid data even if application fails
 Improves long-term data consistency
 Reduces debugging and cleanup effort
+---
 Final Outcome
+---
 ✅ Intern understands:
 
 Advanced constraint usage
 Data validation best practices
 Real-world database protection techniques
 ✅ Database enforces strong data quality and integrity automatically
+---
